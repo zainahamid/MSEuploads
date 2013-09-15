@@ -51,6 +51,8 @@ NSMutableArray *pc = [[NSMutableArray alloc]init];
 		[pc addObject:pc2];
 		[pc addObject:pc3];
 [pb setCards:pc];
+[pb listDetails];
+[pb countEntries];
 	[pool drain];
 	return 0;
 }

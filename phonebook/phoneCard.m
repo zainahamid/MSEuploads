@@ -6,6 +6,6 @@
 {
 	NSLog(@"The name is %@",name);
 	NSLog(@"The email id is %@",email);
-	NSLog(@"The phone num is %@",phoneNo);
+	NSLog(@"The phone num is %d",phoneNo);
 }
 @end
